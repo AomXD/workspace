@@ -5,7 +5,7 @@ import java.sql.*;
 public class JDBConnection {
 	private String dbDriver = "com.mysql.jdbc.Driver"; // 数据库的驱动
 
-	private String url = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=gbk";//"jdbc:mysql://localhost:3306/db_shopping"; // URL地址
+	private String url = "jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=gbk"//"jdbc:mysql://localhost:3306/db_shopping"; // URL地址
 
 	public Connection connection = null;
 

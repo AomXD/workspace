@@ -58,17 +58,5 @@ return false;
 </table>
 
 <jsp:include page="bg-down.jsp" flush="true" />
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
