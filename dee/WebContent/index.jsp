@@ -8,9 +8,22 @@ pageEncoding="GB18030"
 <meta http-equiv="Content-Type" content="text/html; charset=GB18030">
 <title>Insert title here</title>
 </head>
+
+
 <body>
 <% java.util.Date d =new java.util.Date();%>
 
-<h1>Today's date is<%= d.toString()%></h1>
+<h1><%= d.toString()%></h1>
+<input type="submit" value="返回" onclick="javascript :history.back(-1);">
 </body>
+
+<table border="1">
+  <tr>
+	<td  style="background:url(picResource/menubg.png)">
+	<a style="text-decoration: none" href="#"><font color=white><b>评价</b></font></a>
+	</td>
+  </tr>
+</table>
+
+
 </html>

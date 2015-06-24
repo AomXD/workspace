@@ -1,0 +1,22 @@
+<%@ page language="java" 
+contentType="text/html; charset=GB18030"
+pageEncoding="GB18030"
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB18030">
+<title>Insert title here</title>
+</head>
+<body>
+<% java.util.Date d =new java.util.Date();%>
+
+<h1><%= d.toString()%></h1>
+<input type="submit" value="返回" onclick="javascript :history.back(-1);">
+
+
+<td width=103px style="background:url(images/you.png)">
+<a style="text-decoration: none" href="#"><font color=white><b>评价</b></font></a>
+</td>
+</body>
+</html>
